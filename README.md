@@ -7,18 +7,17 @@ mute-frame is a small net8 application that integrates with Teams (specifically 
 ## Usage
 
 Clone, compile, put in your favorite directory and run.
-This is version proof-of-concept. 
-
-On the list of todo:s are:
-* Make the app install itself as autostartup.
-* Settings for border type, thickness and color
-* Settings for if border should follow the Teams app or stay on primary monitor.
 
 Unfortunately, the process of integrating any app with New Teams via the API is a little involved. This is by design. Even Stream Deck needs the exact same procedure.
 * First, enable API Access in Teams. This is done via Settings -> Privacy -> Manage API -> Enable API
 * On startup of the application, a small settings dialog will appear. 
 * To initialize integration, start a call or meeting and click on the mute or unmute buttons in the dialog box (not in teams)
 * A confirmation popup should appear inside Teams. Click approve and you should be all set.
+
+On the list of todo:s are:
+* Make the app install itself as autostartup.
+* Settings for border type, thickness and color
+* Settings for if border should follow the Teams app or stay on primary monitor.
 
 ## Thanks
 
