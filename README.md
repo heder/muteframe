@@ -10,7 +10,7 @@ Clone, compile, put in your favorite directory and run.
 
 Unfortunately, the process of integrating any app with New Teams via the API is a little involved. This is by design. Even Stream Deck needs the exact same procedure.
 * First, enable API Access in Teams. This is done via Settings -> Privacy -> Manage API -> Enable API
-* On startup of the application, a small settings dialog will appear. 
+* On first startup of the application, a small settings dialog will appear. 
 * To initialize integration, start a call or meeting in Teams and click on the mute or unmute buttons in the app's settings box. (The dialog can be opened by right-clicking the icon in windows systray/notification area)
 * A confirmation popup should appear inside Teams. Click approve and you should be all set.
 
