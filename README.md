@@ -14,7 +14,7 @@ On the list of todo:s are:
 * Settings for border type, thickness and color
 * Settings for of border should follow the Teams app or stay on primary monitor.
 
-Unfortunately, the process of integrating any app with New Teams via the APi is a little involved. This is by design. Even Stream Deck needs the exact same procedure.
+Unfortunately, the process of integrating any app with New Teams via the API is a little involved. This is by design. Even Stream Deck needs the exact same procedure.
 * First, enable API Access in Teams. This is done via Settings -> Privacy -> Manage API -> Enable API
 * On startup of the application, a small settings dialog will appear. 
 * To initialize integration, start a call or meeting and click on the mute or unmute buttons in the dialog box (not in teams)
