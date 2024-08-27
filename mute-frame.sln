@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35209.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mute-frame", "mute-frame\mute-frame.csproj", "{0B39036B-E0CE-4FBC-A3D0-2A9197CD5367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B39036B-E0CE-4FBC-A3D0-2A9197CD5367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B39036B-E0CE-4FBC-A3D0-2A9197CD5367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B39036B-E0CE-4FBC-A3D0-2A9197CD5367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B39036B-E0CE-4FBC-A3D0-2A9197CD5367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94C9968-47DC-4709-9E32-4FCA5EB2BACA}
+	EndGlobalSection
+EndGlobal
