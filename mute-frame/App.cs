@@ -5,9 +5,9 @@ internal class App
     private readonly NotifyIcon ni = new();
     private readonly ContextMenuStrip cms = new();
     private readonly MainForm mainForm = new();
-    public readonly BorderForm borderForm = new();
-    public readonly Thread t;
-    public readonly Teams teams = new();
+    private readonly BorderForm borderForm = new();
+    private readonly Thread teamsCommThread;
+    private readonly Teams teams = new();
 
     public App()
     {
@@ -31,13 +31,12 @@ internal class App
             Settings.Default.Save();
         }
 
-        t = new Thread(ThreadStart);
-        t.Start();
+        teamsCommThread = new Thread(ThreadStart);
+        teamsCommThread.Start();
     }
 
     async void ThreadStart()
     {
-        
         await teams.Init(borderForm);
     }
 }
