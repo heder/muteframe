@@ -12,7 +12,7 @@ This is version proof-of-concept.
 On the list of todo:s are:
 * Make the app install itself as autostartup.
 * Settings for border type, thickness and color
-* Settings for of border should follow the Teams app or stay on primary monitor.
+* Settings for if border should follow the Teams app or stay on primary monitor.
 
 Unfortunately, the process of integrating any app with New Teams via the API is a little involved. This is by design. Even Stream Deck needs the exact same procedure.
 * First, enable API Access in Teams. This is done via Settings -> Privacy -> Manage API -> Enable API
