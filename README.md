@@ -24,6 +24,6 @@ Unfortunately, the process of integrating any app with New Teams via the API is 
 
 [@emmaelisen](https://www.github.com/emmaelisen) for being the prime source of "You are on mute, Thomas".
 
-Some of the teams integration code is grabbed and inspired by code on the following accounts.
+Some of the teams integration code is grabbed and inspired by code from the following accounts.
 [@MrRoundRobin](https://github.com/MrRoundRobin)  
 [@EionRobb](https://github.com/EionRobb)
