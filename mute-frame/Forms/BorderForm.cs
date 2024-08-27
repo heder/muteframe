@@ -24,7 +24,7 @@ public partial class BorderForm : Form
 
     protected override void OnPaint(PaintEventArgs e)
     {
-        using Pen redPen = new(Color.Red, 10);
+        using Pen redPen = new(Color.Red, 25);
         redPen.DashStyle = System.Drawing.Drawing2D.DashStyle.DashDot;
         e.Graphics.DrawRectangle(redPen, new Rectangle(0, 0, Width - 1, Height - 1));
     }
